@@ -17,7 +17,7 @@ import httpx
 # )
 
 # --- APIキーの読み込み ---
-load_dotenv(".env")  # .env ファイルから環境変数を読み込む
+load_dotenv(".gitignore")  # .gitignore ファイルから環境変数を読み込む
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
